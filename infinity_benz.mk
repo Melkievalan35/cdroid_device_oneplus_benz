@@ -13,9 +13,10 @@ $(call inherit-product, device/oneplus/benz/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
-INFINITY_MAINTAINER := Himanshu
+INFINITY_MAINTAINER := Melkie
 TARGET_HAS_UDFPS := true
 WITH_GAPPS := true
+INFINITY_BUILD_TYPE := OFFICIAL
 
 BYPASS_CHARGE_SUPPORTED := true
 
