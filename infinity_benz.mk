@@ -19,6 +19,7 @@ WITH_GAPPS := true
 INFINITY_BUILD_TYPE := OFFICIAL
 
 BYPASS_CHARGE_SUPPORTED := true
+BYPASS_CHARGE_TOGGLE_PATH := /sys/class/oplus_chg/battery/mmi_charging_enable
 
 PRODUCT_NAME := infinity_benz
 PRODUCT_DEVICE := benz
